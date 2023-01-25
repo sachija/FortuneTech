@@ -49,7 +49,7 @@ function Submit() {
                 <input onChange={(e) => handle(e)} id="Student_Email" value={data.Student_Email} placeholder='Student Email Id' type='email' required></input><br />
 
                 <select onChange={(e) => handle(e)} id='Gender' value={data.Gender} placeholder=' Select Gender' type='text' required>
-                    <option value='Male'>Select Gender</option>
+                    <option value='Gender'>Select Gender</option>
                     <option value='Male'>Male</option>
                     <option value='female'>Female</option>
                 </select>
@@ -60,7 +60,7 @@ function Submit() {
                 <input onChange={(e) => handle(e)} id="city" value={data.city} placeholder='city' type='text' required></input><br />
                 <input onChange={(e) => handle(e)} id="pincode" value={data.pincode} placeholder='pincode' type='number' required></input><br />
                 <input onChange={(e) => handle(e)} id="School_id" value={data.School_id} placeholder='School id' type='number' required></input><br /><br />
-                <input onClick={Alert} className='button' type='submit' value='submit'></input>
+                <input  className='button' type='submit' value='submit'></input>
             </form>
         </div>
     )
